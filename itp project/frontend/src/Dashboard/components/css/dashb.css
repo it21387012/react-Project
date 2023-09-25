@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* 
+.A-menu {
+    background-color: #2e5c5c;
+    padding-bottom: 70PX;
+    font-weight: bold;
+    padding-left: 80PX;
+
+
+    height: 30px;
+    margin-left: 20px;
+    
+}
+.tbutton{
+background-color: #299494;
+width: 1000px;
+margin-left: 150px;
+
+
+
+
+}
+a{
+    color: #020c0c;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#010505;
+    text-decoration: none;
+} */
+.adm-containrt{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 100vh;
+  
+}
+.adm-left{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+
+    height: 720px;
+    width: 80%;
+    margin-left: 280px;
+
+}
+.Ad-head-line{
+    display: flex;
+    background-color: #2c8f8f;
+    padding-bottom: 70PX;
+    font-weight: bold;
+    padding-left: 480px;
+    padding-top: 10px;
+    height: 30px;
+    width: 1510px;
+    margin-left: 0px;
+    margin-right: 230px;   
+}
+.btn-Signin{
+    width: 90px;
+    height: 40px;
+    margin-left: 200px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: aqua;
+}
+.btn-Signup{
+    width: 90px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: aqua;
+}
+.btn-Signup:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.89);
+    color: rgb(0, 0, 0);
+}
+.btn-Signin:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.89);
+    color: rgb(0, 0, 0);
+}
+.btn-Signin>h4{
+    padding-top: 5px;
+    font-size: 20px;
+}
+.btn-Signup>h4{
+    padding-top: 5px;
+    font-size: 20px;
+}
+.Ad-head-line>h1{
+    color: aliceblue;
+    margin-left: 200px;
+}
+.Ad-menu-container{
+    background-color: aliceblue;
+    width: 1210px;
+    height: 600px;
+    padding-left: 200px;
+
+    overflow-y: auto;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+.ad-box1{
+    display: flexbox;
+
+    background-color: rgb(255, 255, 255);
+    width: 650px;
+    text-align: center;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 11px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.97);
+    padding-top: 30px;
+    padding-left: 50px;
+    cursor: pointer;
+}
+.ad-box1:hover{
+    background-color: rgb(192, 191, 190);
+    transition: 0.5s;
+}
+.head{
+    /* padding-left: 250px; */
+}
+.Ad-menu-item{
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+}

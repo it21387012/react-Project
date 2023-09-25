@@ -1,0 +1,79 @@
+/* dash.css */
+
+body {
+    margin: 0;
+  }
+  
+  .menu {
+    background-color: #209292;
+    padding: 20px 80px 70px 80px;
+    font-weight: bold;
+    border-radius: 30px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* adds drop shadow */
+    transition: box-shadow 0.3s ease; /* smoothens the shadow transition */
+  }
+  
+  .menu:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5); /* adds deeper shadow on hover */
+  }
+  
+  .tbutton {
+    background-color: #209292;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease; /* smoothens the color transition */
+  }
+  
+  .tbutton.hovered {
+    background-color: #3dbbbd; /* updated hover color */
+  }
+  
+  .tbutton:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.6)); /* gradient effect */
+    transition: width 0.3s ease; /* smoothens the transition */
+    z-index: -1;
+  }
+  
+  .tbutton.hovered:before {
+    width: 100%; /* gradually increases the width to fill the button on hover */
+  }
+  
+  a {
+    color: #020c0c;
+    text-decoration: none;
+    transition: color 0.3s ease; /* smoothens the color transition */
+  }
+  
+  a:hover {
+    color: #010505;
+    text-decoration: none;
+  }
+  
+  h1 {
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 0;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  

@@ -1,0 +1,22 @@
+.title{
+    background-color: #209292;
+    padding: 100px;
+    margin-top: 80px;
+    margin-left: 100px;
+    border-radius: 20px;
+    font-size: larger; 
+    
+
+}
+.TOPIC{
+  background-color: #209292;
+  padding-bottom: 70PX;
+  font-weight: bold;
+  padding-left: 380PX;
+  padding-top: 35PX;
+  border-radius: 30px;
+  height: 10px;
+  margin-left: 100px;
+  
+
+}

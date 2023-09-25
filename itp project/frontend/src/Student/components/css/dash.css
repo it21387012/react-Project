@@ -1,0 +1,29 @@
+.menu {
+    background-color: #209292;
+    padding-bottom: 70PX;
+    font-weight: bold;
+    padding-left: 80PX;
+    padding-top: 20PX;
+    border-radius: 30px;
+    height: 30px;
+    margin-left: 20px;
+    
+}
+.tbutton{
+background-color: #209292;
+width: 1000px;
+margin-left: 150px;
+
+
+
+
+}
+a{
+    color: #020c0c;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#010505;
+    text-decoration: none;
+}
